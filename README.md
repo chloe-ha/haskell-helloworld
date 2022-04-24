@@ -28,6 +28,16 @@ Alternatively, run
 stack run Josh
 ```
 
+# Install library
+
+Libraries are managed in package.yaml file, add the desired library inside the `dependencies` and run
+
+```
+stack build
+```
+
+as per stack doc https://docs.haskellstack.org/en/stable/GUIDE/#adding-dependencies
+
 # Tools/References
 
 - 5min tuto https://www.haskell.org/

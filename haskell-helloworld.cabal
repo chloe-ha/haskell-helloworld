@@ -34,6 +34,7 @@ library
       base >=4.7 && <5
     , containers
     , filepath
+    , parsec
   default-language: Haskell2010
 
 executable haskell-helloworld-exe
@@ -48,6 +49,7 @@ executable haskell-helloworld-exe
     , containers
     , filepath
     , haskell-helloworld
+    , parsec
   default-language: Haskell2010
 
 test-suite haskell-helloworld-test
@@ -63,4 +65,5 @@ test-suite haskell-helloworld-test
     , containers
     , filepath
     , haskell-helloworld
+    , parsec
   default-language: Haskell2010
