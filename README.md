@@ -46,4 +46,21 @@ as per stack doc https://docs.haskellstack.org/en/stable/GUIDE/#adding-dependenc
 - vscode setup https://betterprogramming.pub/haskell-vs-code-setup-in-2021-6267cc991551
 - doc https://docs.haskellstack.org/en/stable/GUIDE/
 - libs, links? https://project-awesome.org/krispo/awesome-haskell
-- tuto https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours
+- tuto1 http://learnyouahaskell.com/chapters
+- tuto2 https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours
+
+# Notes
+
+In functional programming, functions have no side effect, things are defined to be et voila
+
+Haskell is lazy. Doesnt exec a function until it's asked to
+
+## Functions
+
+\*, +, -, /, ...etc are _infix functions_ : call the function between 2 params
+
+succ, pred, min, ...etc are _prefix functions_: call the function with params after, separated by spaces
+
+when a function doesnt take any params, we say it's a _definition_
+
+function names use camelCase starting with lowercase, and can contain the character `'`
